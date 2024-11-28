@@ -17,7 +17,7 @@ with open('rfr.pkl', 'rb') as file:
 
 rfc = joblib.load('rfc.joblib')
 
-df_ad = pd.read_csv('Advertising.csv')
+df_ad = pd.read_csv('advertising.csv')
 
 def main():
 
